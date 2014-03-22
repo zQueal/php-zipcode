@@ -1,0 +1,20 @@
+{
+  "name": "PHP-ZipCode",
+  "version": "0.0.1",
+  "description": "A simple tool to pull city, state, and country from a zipcode",
+  "keywords": [
+    "zipcode"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Xanza/php-zipcode.git"
+  },
+  "author": {
+    "name": "Zach Q",
+    "email": "zach.queal@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "php": "~5.3.0"
+  }
+}
