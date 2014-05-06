@@ -189,4 +189,5 @@ class Curl {
  */
 
 class CurlException extends \Exception {
+    
 }
