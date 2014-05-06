@@ -1,5 +1,5 @@
 <?php
- 
+
 namespace Network\Curl;
 
 /**
