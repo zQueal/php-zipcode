@@ -1,6 +1,6 @@
 {
   "name": "PHP-ZipCode",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple tool to pull city, state, and country from a zipcode",
   "keywords": [
     "zipcode"
