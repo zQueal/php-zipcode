@@ -3,7 +3,7 @@ About
 
 A simple configuration script to pull `city`, `state`, and `country` from a given zipcode. This is more of a proof of concept that even though this is now 2014 we're still requiring people to put in their full addresses when its totally unnecessary. The included class and concept can be used with webstores and the like to ensure that checking out for your customers is as simple as possible. The only requirements would be a PO BOX or street address and zipcode.
 
-####Index
+#### Index
 * [Namespace](#namespace)
 * [About Phalcon](#about-phalcon)
   * [Built In Webserver](#built-in-webserver)
@@ -33,7 +33,7 @@ About Phalcon
 To be able to use phalcon it must be installed as a PHP extension and you must use the correct routing method for your preferred setup.
 
 ------------------------
-####Built In Webserver
+#### Built In Webserver
 
 The built in webserver that we all have access to with the newer versions of PHP works just fine with the micro application functions included with Phalcon. However, to access them you must create another PHP file `.htrouter.php` and include it with your `index.php`.
 
@@ -50,7 +50,7 @@ return false;
 Once you've done that, it will route just fine.
 
 ------------------------
-####Nginx
+#### Nginx
 
 An example nginx `server{ }` function would look something like this:
 
@@ -93,7 +93,7 @@ server {
 ```
 
 ------------------------
-####Apache
+#### Apache
 
 Apache must simply have `AllowOverride All` enabled for your project directory, and include a `.htaccess` file with the following contents:
 
@@ -110,7 +110,7 @@ Classes
 There is only a single class in this example: `ZipCode`. It's a static method which is used to execute the cURL request and dump the results into an object (`$d`) and retuns the value.
 
 --------------
-####ZipCode
+#### ZipCode
 
 This static method class is used to facilitate the return of the different types of data that we can access, including `city`, `state`, and `country`. Each return has their own static function along with a static function for `all` which will return all three data values.
 
